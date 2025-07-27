@@ -1,0 +1,329 @@
+/* Estilos gerais */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #FFFFFF;
+}
+
+/* Cabeçalho */
+header {
+  background: #0057B8;
+  color: #FFFFFF;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+header p {
+  margin: 0.5rem 0 0 0;
+  font-size: 0.8rem;
+  max-width: 500px;
+}
+
+header button {
+  background: #28A745;
+  color: #FFFFFF;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+}
+
+header button:hover {
+  background: #218838;
+}
+
+/* Menu lateral */
+#menu-lateral {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 240px;
+  height: 100%;
+  overflow-y: auto;
+  background: #F5F5F5;
+  border-right: 1px solid #DDD;
+  padding-top: 4.5rem; /* altura aproximada do cabeçalho */
+}
+
+#menu-lateral ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menu-lateral li {
+  border-bottom: 1px solid #EEE;
+}
+
+#menu-lateral a {
+  display: block;
+  padding: 0.75rem 1rem;
+  color: #0057B8;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+#menu-lateral a:hover,
+#menu-lateral a:focus {
+  background: #EAEAEA;
+}
+
+/* Área principal */
+main {
+  margin-left: 240px;
+  padding: 1rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  #menu-lateral {
+    position: static;
+    width: 100%;
+    height: auto;
+    border-right: none;
+    padding-top: 0;
+  }
+  main {
+    margin-left: 0;
+  }
+}
+
+/* Conteúdo dinâmico */
+.hidden {
+  display: none !important;
+}
+
+/* Flashcards */
+.flashcards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.flashcard {
+  width: 200px;
+  height: 130px;
+  perspective: 1000px;
+  cursor: pointer;
+  position: relative;
+}
+
+.flashcard > div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border: 1px solid #DDD;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.6s;
+}
+
+.flashcard .frente {
+  background: #FFFFFF;
+  color: #0057B8;
+}
+
+.flashcard .verso {
+  background: #FFF8E1;
+  color: #333;
+  transform: rotateY(180deg);
+}
+
+.flashcard.virado .frente {
+  transform: rotateY(180deg);
+}
+
+.flashcard.virado .verso {
+  transform: rotateY(0deg);
+}
+
+/* Botão de quiz */
+.quiz-btn {
+  background: #FFD700;
+  color: #333;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.quiz-btn:hover {
+  background: #E6C200;
+}
+
+/* Questões e alternativas */
+.questao,
+.questao-prova {
+  margin-bottom: 1.5rem;
+  border: 1px solid #DDD;
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+.alternativas label {
+  display: block;
+  margin-bottom: 0.3rem;
+  padding: 0.3rem 0.5rem;
+  border: 1px solid #CCC;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.alternativas label:hover:not(.correta):not(.incorreta) {
+  background: #F8F9FA;
+}
+
+.alternativas input {
+  margin-right: 0.5rem;
+}
+
+label.correta {
+  background: #D4EDDA !important;
+  border-color: #C3E6CB;
+}
+
+label.incorreta {
+  background: #F8D7DA !important;
+  border-color: #F5C6CB;
+}
+
+.feedback {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border-left: 3px solid #28A745;
+  background: #E9F7EF;
+  color: #155724;
+  border-radius: 4px;
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal .modal-content {
+  background: #FFFFFF;
+  padding: 1.5rem;
+  border-radius: 6px;
+  width: 90%;
+  max-width: 500px;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal h2 {
+  margin-top: 0;
+}
+
+.modal button#close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  color: #333;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.modal form {
+  margin-top: 1rem;
+}
+
+.modal form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.modal form input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+.modal form button {
+  margin-top: 1rem;
+  background: #28A745;
+  color: #FFFFFF;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.modal form button:hover {
+  background: #218838;
+}
+
+/* Rodapé */
+footer {
+  background: #0057B8;
+  color: #FFFFFF;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+footer p {
+  margin: 0.3rem 0;
+  font-size: 0.8rem;
+}
+
+/* Acordeão (opcional) */
+.acordeao-titulo {
+  cursor: pointer;
+  padding: 0.5rem;
+  background: #F1F1F1;
+  border: 1px solid #DDD;
+  border-radius: 4px;
+  margin: 0.5rem 0;
+}
+
+.acordeao-titulo.ativo {
+  background: #EAEAEA;
+}
+
+.acordeao-conteudo {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.acordeao-conteudo.open {
+  max-height: 500px;
+}

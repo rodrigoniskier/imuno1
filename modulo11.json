@@ -1,0 +1,50 @@
+{
+  "id": 11,
+  "titulo": "Módulo 11: Tolerância Imunológica, Vacinas e Autoimunidade",
+  "subtopicos": [
+    {
+      "id": "11.1",
+      "titulo": "Tolerância Central e Periférica",
+      "conteudo": "<p>Tolerância imunológica é o estado de não responsividade a antígenos específicos. A tolerância central ocorre durante o desenvolvimento de linfócitos no timo e na medula óssea, onde linfócitos autoreativos são eliminados (deleção clonal) ou tornam-se linfócitos T reguladores. A tolerância periférica envolve mecanismos como anergia, supressão por células T reguladoras e exclusão física dos antígenos. Falhas nesses mecanismos resultam em doenças autoimunes.</p>",
+      "imagens": [
+        {
+          "src": "fig11-1.png",
+          "legenda": "FIGURA 11.1 Tolerância central e periférica.",
+          "descricao_detalhada": "Esquema mostrando a deleção clonal no timo e na medula óssea e os mecanismos de tolerância periférica."
+        }
+      ],
+      "flashcards": [
+        {
+          "frente": "O que é deleção clonal?",
+          "verso": "Eliminação de linfócitos autoreativos durante o desenvolvimento no timo ou medula óssea."
+        },
+        {
+          "frente": "Como as células T reguladoras contribuem para a tolerância periférica?",
+          "verso": "Suprimem respostas imunes contra antígenos próprios por meio de citocinas e contato celular."
+        }
+      ]
+    },
+    {
+      "id": "11.2",
+      "titulo": "Princípios de Vacinação",
+      "conteudo": "<p>Vacinas consistem em antígenos inativados, atenuados ou componentes purificados que induzem respostas imunes protetoras sem causar doença. A vacinação estimula a produção de anticorpos neutralizantes e linfócitos de memória. Adjuvantes são adicionados a muitas vacinas para intensificar a resposta, ativando a imunidade inata através de PRRs. A manutenção de altas taxas de cobertura vacinal é essencial para a imunidade coletiva, prevenindo surtos de doenças.</p>",
+      "imagens": [
+        {
+          "src": "fig11-1.png",
+          "legenda": "FIGURA 11.2 Vacinação e memória imunológica.",
+          "descricao_detalhada": "Ilustração da produção de anticorpos e linfócitos de memória após vacinação e sua resposta rápida em futuras exposições ao patógeno."
+        }
+      ],
+      "flashcards": [
+        {
+          "frente": "Qual é o objetivo de um adjuvante em uma vacina?",
+          "verso": "Estimular a imunidade inata e aumentar a magnitude da resposta imune adaptativa."
+        },
+        {
+          "frente": "Por que a vacinação confere memória imunológica?",
+          "verso": "Porque induz a formação de linfócitos B e T de memória que respondem de forma rápida e intensa a novas exposições ao antígeno."
+        }
+      ]
+    }
+  ]
+}

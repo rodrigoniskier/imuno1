@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imunologia Interativa</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Cabeçalho principal com título e botão de prova -->
+  <header>
+    <div class="titulo-container">
+      <h1>🧬 Imunologia Interativa</h1>
+      <p>Esta plataforma destina‑se exclusivamente ao ensino e estudo. As informações aqui apresentadas não substituem orientação médica profissional.</p>
+    </div>
+    <button id="gerar-prova-btn">Gerar Prova Simulada 📝</button>
+  </header>
+
+  <!-- Menu lateral fixo -->
+  <aside id="menu-lateral">
+    <nav>
+      <ul>
+        <li><a href="#" data-modulo="1">Módulo 1: Visão Geral</a></li>
+        <li><a href="#" data-modulo="2">Módulo 2: Células e Tecidos</a></li>
+        <li><a href="#" data-modulo="3">Módulo 3: Migração e Homing</a></li>
+        <li><a href="#" data-modulo="4">Módulo 4: PRRs e Sinalização</a></li>
+        <li><a href="#" data-modulo="5">Módulo 5: Antígenos e Anticorpos</a></li>
+        <li><a href="#" data-modulo="6">Módulo 6: MHC e Apresentação</a></li>
+        <li><a href="#" data-modulo="7">Módulo 7: Linfócitos T</a></li>
+        <li><a href="#" data-modulo="8">Módulo 8: Linfócitos B e Anticorpos</a></li>
+        <li><a href="#" data-modulo="9">Módulo 9: Sistema Complemento</a></li>
+        <li><a href="#" data-modulo="10">Módulo 10: Imunidade Celular</a></li>
+        <li><a href="#" data-modulo="11">Módulo 11: Tolerância e Vacinas</a></li>
+        <li><a href="#" data-modulo="referencias">Referências</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- Área de conteúdo principal -->
+  <main>
+    <div id="area-conteudo">
+      <!-- O conteúdo dinâmico dos módulos será carregado aqui -->
+    </div>
+    <section id="prova-container" class="hidden">
+      <!-- A prova simulada será renderizada aqui -->
+    </section>
+  </main>
+
+  <!-- Modal para seleção de módulos para a prova -->
+  <div id="modal-prova" class="modal hidden">
+    <div class="modal-content">
+      <button id="close-modal" aria-label="Fechar">&times;</button>
+      <h2>Gerar Prova Simulada</h2>
+      <form id="form-prova">
+        <fieldset>
+          <legend>Selecione os módulos a serem incluídos:</legend>
+          <label><input type="checkbox" value="1"> Módulo 1</label>
+          <label><input type="checkbox" value="2"> Módulo 2</label>
+          <label><input type="checkbox" value="3"> Módulo 3</label>
+          <label><input type="checkbox" value="4"> Módulo 4</label>
+          <label><input type="checkbox" value="5"> Módulo 5</label>
+          <label><input type="checkbox" value="6"> Módulo 6</label>
+          <label><input type="checkbox" value="7"> Módulo 7</label>
+          <label><input type="checkbox" value="8"> Módulo 8</label>
+          <label><input type="checkbox" value="9"> Módulo 9</label>
+          <label><input type="checkbox" value="10"> Módulo 10</label>
+          <label><input type="checkbox" value="11"> Módulo 11</label>
+        </fieldset>
+        <button id="confirmar-gerar-prova">Gerar Prova</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>© 2025 - Plataforma Imunologia Interativa. Desenvolvido para fins educacionais.</p>
+    <p>Conteúdo baseado em literatura científica de imunologia e adaptado para a realidade epidemiológica de João Pessoa, Paraíba.</p>
+  </footer>
+</body>
+</html>

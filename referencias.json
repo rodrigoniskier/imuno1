@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "referencia": "Burnet FM. A modification of Jerne's theory of antibody production using the concept of clonal selection. Australien J Sci. 1957;20:67–69."
+  },
+  {
+    "id": 2,
+    "referencia": "Cohn M, Mitchison NA, Paul WE, et al. Reflections on the clonal selection theory. Nat Rev Immunol. 2007;7:823–830."
+  },
+  {
+    "id": 3,
+    "referencia": "Jerne NK. The natural-selection theory of antibody formation. Proc Natl Acad Sci USA. 1955;41:849–857."
+  },
+  {
+    "id": 4,
+    "referencia": "Silverstein AM. Cellular versus humoral immunology: a century-long dispute. Nat Immunol. 2003;4:425–428."
+  },
+  {
+    "id": 5,
+    "referencia": "Boehm T, Swann JB. Origin and evolution of adaptive immunity. Annu Rev Anim Biosci. 2014;2:259–283."
+  },
+  {
+    "id": 6,
+    "referencia": "Flajnik MF, Du Pasquier L. Evolution of innate and adaptive immunity: can we draw a line? Trends Immunol. 2004;25:640–644."
+  },
+  {
+    "id": 7,
+    "referencia": "Litman GW, Rast JP, Fugmann SD. The origins of vertebrate adaptive immunity. Nat Rev Immunol. 2010;10:543–553."
+  },
+  {
+    "id": 8,
+    "referencia": "Collin M, McGovern N, Haniffa M. Human dendritic cell subsets. Immunology. 2013;140:22–30."
+  },
+  {
+    "id": 9,
+    "referencia": "Davies LC, Jenkins SJ, Allen JE, Taylor PR. Tissue-resident macrophages. Nat Immunol. 2013;14:986–995."
+  },
+  {
+    "id": 10,
+    "referencia": "Fan X, Rudensky AY. Hallmarks of tissue-resident lymphocytes. Cell. 2016;164:1198–1211."
+  },
+  {
+    "id": 11,
+    "referencia": "Farber DL, Yudanin NA, Restifo NP. Human memory T cells: generation, compartmentalization and homeostasis. Nat Rev Immunol. 2014;14:24–35."
+  },
+  {
+    "id": 12,
+    "referencia": "Geissmann F, Manz MG, Jung S, et al. Development of monocytes, macrophages, and dendritic cells. Science. 2010;327:656–661."
+  },
+  {
+    "id": 13,
+    "referencia": "Merad M, Sathe P, Helft J, et al. The dendritic cell lineage: ontogeny and function of dendritic cells and their subsets in the steady state and the inflamed setting. Annu Rev Immunol. 2013;31:563–604."
+  },
+  {
+    "id": 14,
+    "referencia": "Mildner A, Jung S. Development and function of dendritic cell subsets. Immunity. 2014;40:642–656."
+  },
+  {
+    "id": 15,
+    "referencia": "Satpathy AT, Wu X, Albring JC, Murphy KM. Re(de)fining the dendritic cell lineage. Nat Immunol. 2012;13:1145–1154."
+  },
+  {
+    "id": 16,
+    "referencia": "Shortman K, Sathe P, Vremec D, et al. Plasmacytoid dendritic cell development. Adv Immunol. 2013;120:105–126."
+  },
+  {
+    "id": 17,
+    "referencia": "Surh CD, Sprent J. Homeostasis of naive and memory T cells. Immunity. 2008;29:848–862."
+  },
+  {
+    "id": 18,
+    "referencia": "Swiecki M, Colonna M. The multifaceted biology of plasmacytoid dendritic cells. Nat Rev Immunol. 2015;15:471–485."
+  },
+  {
+    "id": 19,
+    "referencia": "Ziegler-Heitbrock L. Blood monocytes and their subsets: established features and open questions. Front Immunol. 2015;6:423."
+  },
+  {
+    "id": 20,
+    "referencia": "Bronte V, Pittet MJ. The spleen in local and systemic regulation of immunity. Immunity. 2013;39:806–818."
+  },
+  {
+    "id": 21,
+    "referencia": "Lane P, Kim MY, Withers D, et al. Lymphoid tissue inducer cells in adaptive CD4 T cell dependent responses. Semin Immunol. 2008;20:159–163."
+  },
+  {
+    "id": 22,
+    "referencia": "Mebius RE, Kraal G. Structure and function of the spleen. Nat Rev Immunol. 2005;5:606–616."
+  },
+  {
+    "id": 23,
+    "referencia": "Mueller SN, Germain RN. Stromal cell contributions to the homeostasis and functionality of the immune system. Nat Rev Immunol. 2009;9:618–629."
+  },
+  {
+    "id": 24,
+    "referencia": "Qi H, Kastenmuller W, Germain RN. Spatiotemporal basis of innate and adaptive immunity in secondary lymphoid tissue. Annu Rev Cell Dev Biol. 2014;30:141–167."
+  },
+  {
+    "id": 25,
+    "referencia": "Ruddle NH, Akirav EM. Secondary lymphoid organs: responding to genetic and environmental cues in ontogeny and the immune response. J Immunol. 2009;183:2205–2212."
+  },
+  {
+    "id": 26,
+    "referencia": "Hogg N, Patjak I, Willenbrock F. The insider's guide to leukocyte integrin signalling and function. Nat Rev Immunol. 2011;11:416–426."
+  },
+  {
+    "id": 27,
+    "referencia": "Ley K, Laudanna C, Cybulsky MI, Nourshargh S. Getting to the site of inflammation: the leukocyte adhesion cascade updated. Nat Rev Immunol. 2007;7:678–689."
+  },
+  {
+    "id": 28,
+    "referencia": "McEver RP. Selectins: initiators of leucocyte adhesion and signalling at the vascular wall. Cardiovasc Res. 2015;107:331–339."
+  },
+  {
+    "id": 29,
+    "referencia": "Vestweber D. How leukocytes cross the vascular endothelium. Nat Rev Immunol. 2015;15:692–704."
+  },
+  {
+    "id": 30,
+    "referencia": "Bromley SK, Mempel TR, Luster AD. Orchestrating the orchestrators: chemokines in control of T cell traffic. Nat Immunol. 2008;9:970–980."
+  },
+  {
+    "id": 31,
+    "referencia": "Sallusto F, Baggiolini M. Chemokines and leukocyte traffic. Nat Immunol. 2008;9:949–952."
+  },
+  {
+    "id": 32,
+    "referencia": "Zlotnik A, Yoshie O. The chemokine superfamily revisited. Immunity. 2012;36:705–716."
+  },
+  {
+    "id": 33,
+    "referencia": "Baeyens A, Fang V, Chen C, Schwab SR. Exit strategies: S1P signaling and T cell migration. Trends Immunol. 2015;36:778–787."
+  },
+  {
+    "id": 34,
+    "referencia": "Bajenoff M, Egen JG, Qi H, et al. Highways, byways and breadcrumbs: directing lymphocyte traffic in the lymph node. Trends Immunol. 2007;28:346–352."
+  },
+  {
+    "id": 35,
+    "referencia": "Cyster JG, Schwab SR. Sphingosine-1-phosphate and lymphocyte egress from lymphoid organs. Annu Rev Immunol. 2012;30:69–94."
+  },
+  {
+    "id": 36,
+    "referencia": "Rot A, von Andrian UH. Chemokines in innate and adaptive host defense: basic chemokinese grammar for immune cells. Annu Rev Immunol. 2004;22:891–928."
+  },
+  {
+    "id": 37,
+    "referencia": "Sigmundsdottir H, Butcher EC. Environmental cues, dendritic cells and the programming of tissue-selective lymphocyte trafficking. Nat Immunol. 2008;9:981–987."
+  },
+  {
+    "id": 38,
+    "referencia": "Zhang Q, Lakkis FG. Memory T cell migration. Front Immunol. 2015;6:504."
+  }
+]

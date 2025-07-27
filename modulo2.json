@@ -1,0 +1,50 @@
+{
+  "id": 2,
+  "titulo": "Módulo 2: Células e Tecidos do Sistema Imune",
+  "subtopicos": [
+    {
+      "id": "2.1",
+      "titulo": "Células do Sistema Imune",
+      "conteudo": "<p>As células do sistema imune inato e adaptativo normalmente estão presentes como células circulantes no sangue e na linfa, em órgãos linfoides e como células dispersas em praticamente todos os tecidos. O arranjo anatômico dessas células e sua capacidade de circular entre sangue, linfa e tecidos são decisivos para a geração de respostas imunes eficazes. As principais populações incluem fagócitos, células dendríticas, linfócitos B e T, células Natural Killer e células linfoides inatas.</p><p>A expressão de proteínas de membrana, como as moléculas CD (cluster of differentiation), distingue populações celulares. Por exemplo, a maioria das células T auxiliares expressa CD4, enquanto linfócitos T citotóxicos expressam CD8【833529487275719†L920-L981】. Esses marcadores não apenas identificam as células, mas também participam de funções de ativação e adesão. Fagócitos como neutrófilos e macrófagos ingerem e destroem microrganismos, sendo recrutados aos sítios inflamatórios; neutrófilos respondem rapidamente e vivem poucos dias, enquanto macrófagos possuem vida mais longa e participam de resposta prolongada【833529487275719†L994-L1032】.</p>",
+      "imagens": [
+        {
+          "src": "fig2-1.png",
+          "legenda": "FIGURA 2.1 Distribuição relativa de leucócitos no sangue.",
+          "descricao_detalhada": "Gráfico de pizza mostrando as proporções aproximadas de neutrófilos, linfócitos, monócitos, eosinófilos e basófilos circulantes no sangue."
+        }
+      ],
+      "flashcards": [
+        {
+          "frente": "Quais células do sistema imune expressam CD4 e CD8?",
+          "verso": "Linfócitos T auxiliares expressam CD4 e linfócitos T citotóxicos expressam CD8."
+        },
+        {
+          "frente": "Qual é a principal função dos neutrófilos?",
+          "verso": "Realizar fagocitose rápida e destruir microrganismos nos sítios de infecção."
+        }
+      ]
+    },
+    {
+      "id": "2.2",
+      "titulo": "Tecidos Linfoides",
+      "conteudo": "<p>Os órgãos linfoides são classificados em centrais (medula óssea e timo) e periféricos (linfonodos, baço, sistemas imunes cutâneo e de mucosa). O arranjo anatômico das células imunes nesses tecidos e sua capacidade de migrar entre compartimentos são essenciais para a geração de respostas imunes. Linfócitos naive migram da medula óssea e do timo para os órgãos linfoides periféricos, onde encontram antígenos, proliferam e diferenciam-se em linfócitos efetores e de memória. Em seguida, migram para os tecidos infectados para desempenhar suas funções【833529487275719†L3744-L3750】.</p><p>Os linfócitos efetores retornam ao sangue e circulam entre os tecidos, conferindo proteção sistêmica. Essa circulação contínua permite que uma resposta iniciada em um local produza proteção em outros tecidos, característica fundamental do sistema imune. Orgãos linfoides secundários como os linfonodos filtram a linfa e apresentam antígenos às células T e B, enquanto o baço remove antígenos da circulação sanguínea e abriga células imunes prontas para responder.</p>",
+      "imagens": [
+        {
+          "src": "fig2-2.png",
+          "legenda": "FIGURA 2.2 Órgãos linfoides centrais e periféricos.",
+          "descricao_detalhada": "Diagrama conceitual mostrando medula óssea e timo como órgãos linfoides centrais e linfonodos, baço e tecidos de mucosa como órgãos linfoides periféricos interconectados pela circulação e linfa."
+        }
+      ],
+      "flashcards": [
+        {
+          "frente": "Quais são os órgãos linfoides centrais?",
+          "verso": "Medula óssea e timo."
+        },
+        {
+          "frente": "Por que a circulação dos linfócitos é importante?",
+          "verso": "Permite que linfócitos encontrem antígenos nos órgãos linfoides e migrem para os locais de infecção para exercer funções efetoras, conferindo proteção sistêmica."
+        }
+      ]
+    }
+  ]
+}

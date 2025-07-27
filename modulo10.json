@@ -1,0 +1,50 @@
+{
+  "id": 10,
+  "titulo": "Módulo 10: Mecanismos Efetores da Imunidade Celular",
+  "subtopicos": [
+    {
+      "id": "10.1",
+      "titulo": "Citotoxicidade Mediada por Linfócitos T",
+      "conteudo": "<p>Linfócitos T CD8+ citotóxicos reconhecem células infectadas que apresentam peptídeos virais ou tumorais via MHC classe I. Após reconhecimento, liberam grânulos contendo perfurina e granzimas que induzem apoptose na célula-alvo. Essa resposta é crucial na eliminação de vírus, células tumorais e microrganismos intracelulares como Mycobacterium spp. As células T citotóxicas também secretam citocinas como IFN-γ, que aumentam a expressão de MHC e a atividade de macrófagos.</p>",
+      "imagens": [
+        {
+          "src": "fig10-1.png",
+          "legenda": "FIGURA 10.1 Citotoxicidade de células T.",
+          "descricao_detalhada": "Ilustração da interação de linfócitos T CD8+ com células-alvo e liberação de grânulos citotóxicos."
+        }
+      ],
+      "flashcards": [
+        {
+          "frente": "Qual molécula perfura a membrana das células-alvo durante a ação de linfócitos T CD8+?",
+          "verso": "Perfurina."
+        },
+        {
+          "frente": "Qual é o papel das granzimas?",
+          "verso": "São proteases que entram na célula-alvo e ativam vias de apoptose."
+        }
+      ]
+    },
+    {
+      "id": "10.2",
+      "titulo": "Ativação de Macrófagos e ADCC",
+      "conteudo": "<p>Macrófagos ativados por IFN-γ secretado por células Th1 aumentam sua capacidade microbicida, produzindo espécies reativas de oxigênio e nitrogênio e apresentando antígenos de maneira mais eficiente. Além disso, anticorpos IgG ligados a patógenos podem interagir com receptores Fc em macrófagos e células NK, promovendo a citotoxicidade dependente de anticorpos (ADCC). Em ADCC, células NK reconhecem a porção Fc de anticorpos e liberam mediadores citotóxicos para destruir a célula-alvo.</p>",
+      "imagens": [
+        {
+          "src": "fig10-1.png",
+          "legenda": "FIGURA 10.2 Ativação de macrófagos e ADCC.",
+          "descricao_detalhada": "Representação esquemática de macrófagos ativados por IFN-γ e da ADCC mediada por IgG e células NK."
+        }
+      ],
+      "flashcards": [
+        {
+          "frente": "Como o IFN-γ ativa macrófagos?",
+          "verso": "Induz a produção de óxido nítrico e espécies reativas de oxigênio, aumentando a capacidade microbicida."
+        },
+        {
+          "frente": "O que caracteriza a ADCC?",
+          "verso": "Células NK ou macrófagos reconhecem a Fc de anticorpos ligados a uma célula-alvo e promovem sua morte."
+        }
+      ]
+    }
+  ]
+}

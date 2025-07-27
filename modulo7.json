@@ -1,0 +1,50 @@
+{
+  "id": 7,
+  "titulo": "Módulo 7: Ativação e Resposta de Linfócitos T",
+  "subtopicos": [
+    {
+      "id": "7.1",
+      "titulo": "Ativação de Linfócitos T",
+      "conteudo": "<p>A ativação de linfócitos T naive requer três sinais: (1) reconhecimento do complexo peptídeo-MHC pelo receptor de células T (TCR), (2) coestimulação fornecida por moléculas como CD28, e (3) citocinas que direcionam a proliferação e diferenciação. Após ativação, células T CD4+ diferenciam-se em subgrupos (Th1, Th2, Th17, Tfh, T reguladoras) que secretam citocinas específicas, enquanto células T CD8+ se diferenciam em linfócitos citotóxicos que eliminam células infectadas.</p>",
+      "imagens": [
+        {
+          "src": "fig7-1.png",
+          "legenda": "FIGURA 7.1 Ativação e diferenciação de células T.",
+          "descricao_detalhada": "Diagrama conceitual mostrando os três sinais necessários para ativação de linfócitos T e os principais subgrupos resultantes."
+        }
+      ],
+      "flashcards": [
+        {
+          "frente": "Quais são os três sinais necessários para ativação de linfócitos T naive?",
+          "verso": "Reconhecimento de peptídeo-MHC, coestimulação (CD28) e citocinas."
+        },
+        {
+          "frente": "Quais subgrupos de células T auxiliares podem surgir após a ativação?",
+          "verso": "Th1, Th2, Th17, Tfh (foliculares) e T reguladoras."
+        }
+      ]
+    },
+    {
+      "id": "7.2",
+      "titulo": "Citocinas e Funções Efetoras",
+      "conteudo": "<p>As citocinas são mediadores essenciais da resposta imune. Células T auxiliares Th1 secretam IFN-γ, ativando macrófagos e promovendo imunidade celular. Th2 produzem IL-4, IL-5 e IL-13, estimulando a ativação de eosinófilos e produção de IgE. Th17 secretam IL-17 e IL-22, recrutando neutrófilos e mantendo barreiras epiteliais. Células T citotóxicas eliminam células infectadas por meio de liberação de perfurina e granzima, enquanto células T reguladoras suprimem respostas imunes excessivas.</p>",
+      "imagens": [
+        {
+          "src": "fig7-1.png",
+          "legenda": "FIGURA 7.2 Principais citocinas de células T.",
+          "descricao_detalhada": "Esquema relacionando subgrupos de células T auxiliares e suas citocinas características."
+        }
+      ],
+      "flashcards": [
+        {
+          "frente": "Qual citocina produzida por células Th1 ativa macrófagos?",
+          "verso": "IFN-γ."
+        },
+        {
+          "frente": "Quais citocinas estão associadas à resposta Th2?",
+          "verso": "IL-4, IL-5 e IL-13."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": 9,
+  "titulo": "Módulo 9: Mecanismos Efetores da Imunidade Humoral",
+  "subtopicos": [
+    {
+      "id": "9.1",
+      "titulo": "Funções dos Anticorpos",
+      "conteudo": "<p>Os anticorpos eliminam microrganismos de diversas maneiras: neutralizam toxinas e vírus impedindo sua entrada nas células; opsonizam patógenos, facilitando a fagocitose por neutrófilos e macrófagos via receptores Fc; ativam o sistema complemento, produzindo fragmentos que lisam bactérias ou revestem partículas para fagocitose; e mediam citotoxicidade dependente de anticorpos (ADCC) por células NK.</p>",
+      "imagens": [
+        {
+          "src": "fig9-1.png",
+          "legenda": "FIGURA 9.1 Funções dos anticorpos.",
+          "descricao_detalhada": "Representação das principais funções de IgG, IgA e IgM na neutralização, opsonização e ativação do complemento."
+        }
+      ],
+      "flashcards": [
+        {
+          "frente": "Como os anticorpos neutralizam vírus?",
+          "verso": "Ligando-se a sítios de ligação do vírus e impedindo a entrada nas células."
+        },
+        {
+          "frente": "O que é ADCC?",
+          "verso": "Citotoxicidade dependente de anticorpos, na qual células NK reconhecem anticorpos ligados a células-alvo e induzem sua morte."
+        }
+      ]
+    },
+    {
+      "id": "9.2",
+      "titulo": "Sistema Complemento",
+      "conteudo": "<p>O sistema complemento é um conjunto de proteínas plasmáticas que, quando ativadas, promovem inflamação, opsonização e lise de microrganismos. A via clássica é iniciada por complexos antígeno-anticorpo (IgM ou IgG), a via das lectinas por ligação de lectinas a carboidratos microbianos, e a via alternativa é ativada diretamente por superfícies patogênicas. Todas convergem na formação da C3-convertase, que cliva C3, gerando C3b (opsonina) e C3a (anafilatoxina). A sequência final forma o complexo de ataque à membrana (MAC) que causa lise celular.</p>",
+      "imagens": [
+        {
+          "src": "fig9-1.png",
+          "legenda": "FIGURA 9.2 Vias de ativação do complemento.",
+          "descricao_detalhada": "Esquema mostrando as vias clássica, alternativa e das lectinas e a formação do complexo de ataque à membrana."
+        }
+      ],
+      "flashcards": [
+        {
+          "frente": "Qual isotipo de anticorpo inicia a via clássica do complemento?",
+          "verso": "IgM (mais eficiente) e IgG."
+        },
+        {
+          "frente": "O que é o complexo de ataque à membrana?",
+          "verso": "Estrutura final formada pelas proteínas do complemento que perfura a membrana de patógenos, causando lise."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": 6,
+  "titulo": "Módulo 6: Apresentação de Antígenos",
+  "subtopicos": [
+    {
+      "id": "6.1",
+      "titulo": "Complexo Principal de Histocompatibilidade (MHC)",
+      "conteudo": "<p>O processamento e apresentação de antígenos dependem de moléculas do Complexo Principal de Histocompatibilidade. MHC classe I apresenta peptídeos derivados de proteínas endógenas a linfócitos T CD8+, enquanto MHC classe II apresenta peptídeos de origem exógena a linfócitos T CD4+. A expressão de MHC classe I ocorre em praticamente todas as células nucleadas, ao passo que o MHC classe II é restrito a células apresentadoras de antígeno profissionais (células dendríticas, macrófagos e linfócitos B).</p>",
+      "imagens": [
+        {
+          "src": "fig6-1.png",
+          "legenda": "FIGURA 6.1 Apresentação antigênica via MHC.",
+          "descricao_detalhada": "Esquema mostrando processamento de antígenos endógenos e exógenos e a apresentação via MHC I e II."
+        }
+      ],
+      "flashcards": [
+        {
+          "frente": "Que tipo de linfócito reconhece peptídeos apresentados por MHC classe I?",
+          "verso": "Linfócitos T CD8+ citotóxicos."
+        },
+        {
+          "frente": "Quais células expressam MHC classe II?",
+          "verso": "Células apresentadoras de antígeno profissionais, como células dendríticas, macrófagos e linfócitos B."
+        }
+      ]
+    },
+    {
+      "id": "6.2",
+      "titulo": "Células Apresentadoras de Antígeno e Coestimulação",
+      "conteudo": "<p>Células dendríticas são as principais células apresentadoras de antígeno (APCs) para linfócitos T naive. Além de apresentar peptídeos via MHC, as APCs fornecem sinais coestimulatórios, como CD80/CD86 interagindo com CD28 nos linfócitos T. A ausência de coestimulação durante o reconhecimento do antígeno pode induzir anergia ou tolerância. Macrófagos e linfócitos B também atuam como APCs, especialmente na ativação de células T efetoras ou na resposta humoral.</p>",
+      "imagens": [
+        {
+          "src": "fig6-1.png",
+          "legenda": "FIGURA 6.2 Coestimulação na ativação de linfócitos T.",
+          "descricao_detalhada": "Ilustração da interação entre APCs e linfócitos T incluindo sinais de coestimulação e produção de citocinas."
+        }
+      ],
+      "flashcards": [
+        {
+          "frente": "Qual molécula coestimulatória se liga ao CD28 nos linfócitos T?",
+          "verso": "CD80 ou CD86 (B7-1/B7-2) das células apresentadoras."
+        },
+        {
+          "frente": "O que pode ocorrer se o linfócito T reconhecer um antígeno sem coestimulação?",
+          "verso": "O linfócito pode tornar-se anérgico ou tolerante."
+        }
+      ]
+    }
+  ]
+}

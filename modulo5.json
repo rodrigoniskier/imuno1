@@ -1,0 +1,50 @@
+{
+  "id": 5,
+  "titulo": "Módulo 5: Antígenos e Anticorpos",
+  "subtopicos": [
+    {
+      "id": "5.1",
+      "titulo": "Estrutura e Classes de Anticorpos",
+      "conteudo": "<p>Anticorpos ou imunoglobulinas são glicoproteínas heterodiméricas formadas por duas cadeias pesadas e duas cadeias leves unidas por pontes dissulfeto. As regiões variáveis das cadeias formam o sítio de ligação ao antígeno, enquanto as regiões constantes determinam a classe (isótipo) do anticorpo: IgM, IgD, IgG, IgA e IgE. Cada isótipo confere propriedades distintas, como ativação do complemento (IgM e IgG), opsonização (IgG), neutralização de toxinas e vírus e defesa de mucosas (IgA).</p>",
+      "imagens": [
+        {
+          "src": "fig5-1.png",
+          "legenda": "FIGURA 5.1 Estrutura de um anticorpo.",
+          "descricao_detalhada": "Representação esquemática de um anticorpo com suas cadeias pesadas e leves, regiões Fab e Fc."
+        }
+      ],
+      "flashcards": [
+        {
+          "frente": "Quais classes de imunoglobulinas ativam o sistema complemento?",
+          "verso": "IgM e IgG."
+        },
+        {
+          "frente": "Qual isótipo de anticorpo é predominante nas mucosas?",
+          "verso": "IgA."
+        }
+      ]
+    },
+    {
+      "id": "5.2",
+      "titulo": "Antígenos e Epítopos",
+      "conteudo": "<p>Antígeno é qualquer substância capaz de ser reconhecida pelo sistema imune, podendo estimular (imunógeno) ou não estimular uma resposta. Epítopos ou determinantes antigênicos são as menores unidades reconhecidas pelos receptores dos linfócitos e anticorpos. Determinantes conformacionais são formados por aminoácidos distantes na sequência, mas próximos na estrutura tridimensional, enquanto determinantes lineares são sequências contínuas de aminoácidos. Pequenas moléculas chamadas haptenos podem se ligar a anticorpos, mas necessitam de carreadores proteicos para estimular resposta.</p>",
+      "imagens": [
+        {
+          "src": "fig5-1.png",
+          "legenda": "FIGURA 5.2 Determinantes antigênicos.",
+          "descricao_detalhada": "Diagrama conceitual de epítopos lineares e conformacionais em uma proteína."
+        }
+      ],
+      "flashcards": [
+        {
+          "frente": "O que são epítopos conformacionais?",
+          "verso": "Determinantes formados por aminoácidos não contíguos que se aproximam na estrutura tridimensional da proteína."
+        },
+        {
+          "frente": "O que é um hapteno?",
+          "verso": "Pequena molécula que pode ser reconhecida por anticorpos mas precisa de um carreador para ser imunogênica."
+        }
+      ]
+    }
+  ]
+}

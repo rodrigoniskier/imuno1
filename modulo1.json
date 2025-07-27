@@ -1,0 +1,50 @@
+{
+  "id": 1,
+  "titulo": "Módulo 1: Propriedades e Visão Geral das Respostas Imunes",
+  "subtopicos": [
+    {
+      "id": "1.1",
+      "titulo": "Imunidade Inata e Adaptativa",
+      "conteudo": "<p>A defesa contra microrganismos é mediada por respostas sequenciais e coordenadas que são denominadas imunidade inata e adaptativa. A imunidade inata (também chamada de imunidade natural ou imunidade nativa) é essencial para a defesa nas primeiras horas ou dias após a infecção, antes que as respostas imunes adaptativas tenham se desenvolvido. Os mecanismos da imunidade inata fornecem a defesa inicial contra infecções e são mediados por componentes que já existem antes da infecção. Em contraste, as respostas imunes adaptativas se desenvolvem posteriormente e necessitam da ativação dos linfócitos. Essas duas formas de imunidade cooperam para eliminar microrganismos.</p><p>Os mecanismos da imunidade inata fornecem os primeiros sinais de perigo que estimulam as respostas imunes adaptativas. A imunidade adaptativa reconhece e reage a um grande número de substâncias microbianas e não microbianas chamadas antígenos. Embora muitos patógenos tenham evoluído de maneira a resistir à resposta imune inata, as respostas imunes adaptativas, sendo mais fortes e especializadas, são capazes de erradicar até mesmo essas infecções. A imunidade adaptativa desenvolve memória, aumentando de magnitude e eficiência após exposições sucessivas ao mesmo agente.</p>",
+      "imagens": [
+        {
+          "src": "fig1-1.png",
+          "legenda": "FIGURA 1.1 Imunidade inata e adaptativa.",
+          "descricao_detalhada": "Diagrama temporal mostrando que a imunidade inata atua nas primeiras horas a dias após a infecção, enquanto a imunidade adaptativa emerge após dias, com linfócitos B produzindo anticorpos e linfócitos T diferenciando-se em células efetoras."
+        }
+      ],
+      "flashcards": [
+        {
+          "frente": "O que é imunidade inata?",
+          "verso": "A defesa inicial e rápida contra microrganismos, mediada por mecanismos pré-existentes antes da infecção."
+        },
+        {
+          "frente": "Como se caracteriza a imunidade adaptativa?",
+          "verso": "É uma resposta imune estimulada pela exposição a antígenos, altamente específica e capaz de desenvolver memória imunológica."
+        }
+      ]
+    },
+    {
+      "id": "1.2",
+      "titulo": "Características Fundamentais da Resposta Imune",
+      "conteudo": "<p>As imunidades inata e adaptativa possuem características distintas. A especificidade da imunidade inata é dirigida a estruturas comuns de microrganismos e moléculas produzidas por células danificadas, enquanto a imunidade adaptativa reconhece antígenos microbianos e não microbianos específicos. A diversidade é limitada na imunidade inata e muito ampla na imunidade adaptativa devido à recombinação somática dos genes dos receptores. A imunidade inata possui pouca ou nenhuma memória, ao passo que a imunidade adaptativa produz memória imunológica que aumenta a eficácia em exposições subsequentes.</p><p>Os componentes da imunidade inata incluem barreiras físicas e químicas, como pele e epitélios de mucosa, moléculas antimicrobianas, proteínas do complemento e células como fagócitos, células dendríticas, células Natural Killer e células linfoides inatas. A imunidade adaptativa emprega linfócitos B e T, anticorpos e órgãos linfoides especializados. As respostas imunes são reguladas por mecanismos de feedback que ampliam ou controlam a reação, prevenindo a ativação excessiva e a autoimunidade.</p>",
+      "imagens": [
+        {
+          "src": "fig1-2.png",
+          "legenda": "FIGURA 1.2 Características da imunidade inata e adaptativa.",
+          "descricao_detalhada": "Gráfico comparando as características de especificidade, diversidade e memória entre as imunidades inata e adaptativa."
+        }
+      ],
+      "flashcards": [
+        {
+          "frente": "Qual é a principal diferença de especificidade entre as imunidades inata e adaptativa?",
+          "verso": "A imunidade inata reconhece padrões comuns a grupos de microrganismos, enquanto a adaptativa reconhece antígenos específicos."
+        },
+        {
+          "frente": "Quais são os principais componentes celulares da imunidade inata?",
+          "verso": "Fagócitos (neutrófilos e macrófagos), células dendríticas, células NK e células linfoides inatas."
+        }
+      ]
+    }
+  ]
+}

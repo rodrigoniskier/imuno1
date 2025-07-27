@@ -1,0 +1,50 @@
+{
+  "id": 8,
+  "titulo": "Módulo 8: Ativação de Linfócitos B e Imunidade Humoral",
+  "subtopicos": [
+    {
+      "id": "8.1",
+      "titulo": "Ativação de Linfócitos B",
+      "conteudo": "<p>Linfócitos B podem ser ativados por antígenos T-dependentes ou T-independentes. Antígenos T-dependentes requerem o auxílio de células T CD4+ para induzir proliferação, comutação de classe e maturação de afinidade. Antígenos T-independentes, como polissacarídeos bacterianos, podem ativar células B sem auxílio de células T, gerando principalmente IgM com pouca memória. Sinais coestimulatórios provenientes de receptores de complemento (CR2) e do TLR também modulam a ativação das células B.</p>",
+      "imagens": [
+        {
+          "src": "fig8-1.png",
+          "legenda": "FIGURA 8.1 Ativação de linfócitos B.",
+          "descricao_detalhada": "Representação da interação entre células B, antígenos e células T auxiliares, destacando a formação de sinapses imunes."
+        }
+      ],
+      "flashcards": [
+        {
+          "frente": "Qual é a diferença entre antígenos T-dependentes e T-independentes?",
+          "verso": "Antígenos T-dependentes requerem auxílio de células T para ativar células B, enquanto T-independentes podem ativar diretamente células B."
+        },
+        {
+          "frente": "Qual isotipo de anticorpo é gerado predominantemente em respostas T-independentes?",
+          "verso": "IgM."
+        }
+      ]
+    },
+    {
+      "id": "8.2",
+      "titulo": "Comutação de Classe e Afinidade",
+      "conteudo": "<p>Após a ativação, células B podem sofrer comutação de classe (switch isotype), substituindo a cadeia pesada μ por outras cadeias (γ, α, ε) sob influência de citocinas e CD40L das células T. O processo de hipermutação somática ocorre nos centros germinativos e seleciona células B com anticorpos de maior afinidade. Plasmócitos secretam grandes quantidades de anticorpos, enquanto células B de memória persistem por longos períodos e respondem rapidamente a exposições posteriores.</p>",
+      "imagens": [
+        {
+          "src": "fig8-1.png",
+          "legenda": "FIGURA 8.2 Comutação de classe e maturação de afinidade.",
+          "descricao_detalhada": "Diagrama conceitual ilustrando a troca de isotipos de imunoglobulinas e a seleção de células B com alta afinidade nos centros germinativos."
+        }
+      ],
+      "flashcards": [
+        {
+          "frente": "O que é comutação de classe?",
+          "verso": "Troca da região constante da cadeia pesada de IgM para outros isotipos (IgG, IgA, IgE) sob influência de citocinas e CD40L."
+        },
+        {
+          "frente": "Para que serve a hipermutação somática?",
+          "verso": "Gera mutações nas regiões variáveis das imunoglobulinas, permitindo seleção de células B com anticorpos de maior afinidade."
+        }
+      ]
+    }
+  ]
+}

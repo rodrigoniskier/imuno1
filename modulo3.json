@@ -1,0 +1,50 @@
+{
+  "id": 3,
+  "titulo": "Módulo 3: Circulação e Migração de Leucócitos",
+  "subtopicos": [
+    {
+      "id": "3.1",
+      "titulo": "Visão Geral da Migração de Leucócitos",
+      "conteudo": "<p>Uma propriedade única do sistema imune é o movimento constante e altamente regulado de seus componentes celulares através do sangue e dos tecidos. Esse movimento possui três funções principais【833529487275719†L3734-L3750】:</p><ul><li>Distribuição de neutrófilos e monócitos da medula óssea para os tecidos, onde eliminam patógenos, removem tecidos mortos e reparam danos.</li><li>Distribuição de linfócitos dos locais de maturação (medula óssea e timo) para órgãos linfoides secundários, onde reconhecem antígenos e se diferenciam.</li><li>Distribuição de linfócitos efetores dos órgãos linfoides secundários para sítios de infecção em qualquer tecido, nos quais desempenham suas funções protetoras.</li></ul><p>Devido à capacidade de disseminação das células imunes, uma resposta iniciada em um local pode estar ativa em locais distantes, conferindo proteção sistêmica.</p>",
+      "imagens": [
+        {
+          "src": "fig3-1.png",
+          "legenda": "FIGURA 3.1 Principais funções da migração de leucócitos.",
+          "descricao_detalhada": "Fluxograma ilustrando a migração de neutrófilos/monócitos aos tecidos, a recirculação de linfócitos naive aos órgãos linfoides e a migração de linfócitos efetores aos sítios de infecção."
+        }
+      ],
+      "flashcards": [
+        {
+          "frente": "Quais são as três funções principais da migração de leucócitos?",
+          "verso": "Recrutar células mieloides para sítios de infecção, levar linfócitos aos órgãos linfoides para ativação e distribuir linfócitos efetores aos tecidos infectados."
+        },
+        {
+          "frente": "Por que a migração de leucócitos confere proteção sistêmica?",
+          "verso": "Porque permite que a resposta imune iniciada em um local atue em tecidos distantes por meio da circulação das células efetoras."
+        }
+      ]
+    },
+    {
+      "id": "3.2",
+      "titulo": "Mecanismos de Homing e Recrutamento",
+      "conteudo": "<p>A migração de leucócitos do sangue para os tecidos é denominada homing e requer adesão aos vasos sanguíneos e sinalização por quimiocinas. Linfócitos naive migram continuamente para órgãos linfoides secundários, enquanto linfócitos previamente ativados e leucócitos mieloides são recrutados preferencialmente para os tecidos com infecção ou lesão. O processo envolve moléculas de adesão (selectinas e integrinas) e receptores de quimiocinas nas superfícies dos leucócitos e das células endoteliais【833529487275719†L3772-L3813】.</p><p>Durante a inflamação, células endoteliais são ativadas por citocinas produzidas por células sentinelas (células dendríticas, macrófagos e mastócitos). Isso aumenta a expressão de moléculas de adesão e quimiocinas, promovendo maior aderência e extravasamento dos leucócitos para o tecido. Esse recrutamento direcionado garante que as células de defesa alcancem rapidamente os sítios de infecção, mas também pode contribuir para dano tecidual quando excessivo.</p>",
+      "imagens": [
+        {
+          "src": "fig3-2.png",
+          "legenda": "FIGURA 3.2 Homing e recrutamento de leucócitos.",
+          "descricao_detalhada": "Representação esquemática das etapas do homing: rolamento mediado por selectinas, ativação por quimiocinas, adesão firme por integrinas e extravasamento através do endotélio."
+        }
+      ],
+      "flashcards": [
+        {
+          "frente": "O que é homing leucocitário?",
+          "verso": "É o processo de migração de leucócitos do sangue para tecidos específicos, guiado por moléculas de adesão e quimiocinas."
+        },
+        {
+          "frente": "Qual é o papel das quimiocinas no recrutamento?",
+          "verso": "As quimiocinas ativam os leucócitos e aumentam a expressão de integrinas, promovendo adesão firme e extravasamento para o tecido."
+        }
+      ]
+    }
+  ]
+}
